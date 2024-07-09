@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#video-container {
+    margin-top: 20px;
+}
+
+#video-feed {
+    width: 640px;
+    height: 480px;
+    border: 2px solid #000;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#loading {
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px;
+}
